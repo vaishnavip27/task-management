@@ -62,7 +62,7 @@ const style = {
 
 const CountChart = () => {
   return (
-    <div>
+    <div className="bg-white rounded-xl w-full h-full p-4">
       {/* title */}
       <div className="flex justify-between items-center">
         <h1>Students</h1>
@@ -70,7 +70,7 @@ const CountChart = () => {
       </div>
       {/* chart */}
       <div className="">
-        <ResponsiveContainer width="100%" height="100%">
+        {/* <ResponsiveContainer width="100%" height="100%">
           <RadialBarChart
             cx="50%"
             cy="50%"
@@ -93,10 +93,16 @@ const CountChart = () => {
               wrapperStyle={style}
             />
           </RadialBarChart>
-        </ResponsiveContainer>
+        </ResponsiveContainer> */}
       </div>
       {/* bottom */}
-      <div className=""></div>
+      <div className="flex justify-center gap-16">
+        <div className="flex flex-col gap-1">
+          <div className="w-5 h-5 bg-lamaSky rounded-full" />
+          <h1 className="font-bold">1,234</h1>
+          <h2 className="text-xs text-gray-300">Boys (55%)</h2>
+        </div>
+      </div>
     </div>
   );
 };
