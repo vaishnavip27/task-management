@@ -39,7 +39,7 @@ const Announcements = () => {
               2025-01-01
             </span>
           </div>
-          <p className="text-sm text-gray-400 mt-1">
+          <p className="text-sm text-gray-400 mt-1  ">
             Lorem ipsum dolor sit amet sonsectur adispicong elit. Voluptatum
             expeditia. Rerum, quidem facilias?
           </p>
